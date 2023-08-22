@@ -1,6 +1,7 @@
  *{
     margin:0;
     padding:0;
+
 }
 
 body{
@@ -215,11 +216,30 @@ footer p{
 
 #check:checked + .checkbtn {
     display: block;
+    
+    
   }
   
-  #check:checked + .checkbtn i::before {
-    content: "\f00d"; 
+  #check:checked ~header ~main{
+    overflow:none;
+    
+    
   }
+
+
+
+  
+  #check:checked + .checkbtn i::before  {
+    content: "\f00d";
+    
+    
+    
+  }
+ 
+
+
+
+  
 @media (max-width:809px) {
     .checkbtn{
         display:block;
@@ -231,7 +251,7 @@ footer p{
         position:absolute;
         width:100vw;
         height:100vh;
-        background: white;
+        background: black;
         top:100px;
         left:-110%;
         transition: all .5s;
@@ -247,22 +267,33 @@ footer p{
     #check:checked ~ ul{
 
     left:0;
+    
 
     }
-    
-       
+
+
+        
     .nav-bar ul li {
             display:flex;
             flex-direction: column;
             margin:0;
             margin-top:25%;
             font-size:30px;
+           
+            
             
 
         
             
     }
- 
+
+    .nav-bar ul li a{
+        color:pink;
+        letter-spacing: 1.3px;
+       
+    }
+    
+    
     a:hover a.active{
         background: none;
         color:hotpink;
@@ -308,3 +339,4 @@ footer p{
         background: none;
     }
 }
+
