@@ -285,3 +285,18 @@ footer p {
 }
 
 
+
+@media screen and (orientation:landscape) and (max-width:667px){
+   
+
+  ul.menu li {
+    flex: column;
+    font-size: 30px;
+    margin-top:1.3em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  
+     
+}
