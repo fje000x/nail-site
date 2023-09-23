@@ -58,6 +58,7 @@ header {
   text-decoration: none;
   color: black;
   font-weight: lighter;
+  font-size:1.2em;
 }
 
 .nav-bar ul li a:hover {
