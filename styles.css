@@ -177,7 +177,7 @@ footer p {
   }
 }
 
-@media (max-width: 982px) {
+@media (max-width: 1000px) {
   .about {
     grid-template-columns: 1fr;
     gap: 2em;
@@ -216,7 +216,7 @@ footer p {
   content: "\f00d";
 }
 
-@media (max-width: 809px) {
+@media (max-width: 1500px) {
   .checkbtn {
     display: block;
   }
@@ -286,17 +286,24 @@ footer p {
 
 
 
-@media screen and (orientation:landscape) and (max-width:667px){
+@media screen and (orientation:landscape) and (min-width:500px){
    
 
   ul.menu li {
     flex: column;
-    font-size: 30px;
+    font-size: 25px;
     margin-top:1.3em;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     text-align: center;
   }
   
   
      
+}
+
+@media (min-width:2000px){
+  .logo{
+    margin:auto ;
+    margin-left:15px;
+  }
 }
