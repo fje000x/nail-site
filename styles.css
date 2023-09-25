@@ -286,7 +286,7 @@ footer p {
 
 
 
-@media screen and (orientation:landscape) and (min-width:500px){
+@media screen and (orientation:landscape) and (min-width:500px) and (max-width:1500){
    
 
   ul.menu li {
@@ -306,4 +306,16 @@ footer p {
     margin:auto ;
     margin-left:15px;
   }
+}
+
+@media (max-width:1500px){
+  ul.menu li {
+    flex: column;
+    font-size: 25px;
+    margin-top:2em;
+    
+    text-align: center;
+  }
+  
+  
 }

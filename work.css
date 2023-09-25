@@ -10,6 +10,7 @@ body{
     background-image: url('images/background.jpg') ;
     background-size: cover;
     
+    
 }
 
 
@@ -146,7 +147,7 @@ img{
 
 
   
-@media (max-width:809px) {
+@media (max-width:1500px) {
     .checkbtn{
         display:block;
 
@@ -208,7 +209,7 @@ img{
   
 }
 
-@media (max-width:1100px){
+@media (max-width:1000px){
 
     .logo{
        grid-column: span 2;
@@ -253,18 +254,36 @@ img{
     }
  }
 
-
- @media screen and (orientation:landscape) and (max-width:667px){
+ @media screen and (orientation:landscape) and (min-width:500px){
    
 
     ul.menu li {
       flex: column;
-      font-size: 30px;
+      font-size: 25px;
       margin-top:1.3em;
-      margin-bottom: 10px;
+      margin-bottom: 7px;
       text-align: center;
     }
     
     
        
-}
+  }
+  
+  @media (min-width:2000px){
+    .logo{
+      margin:auto ;
+      margin-left:15px;
+    }
+  }
+
+  @media (max-width:1500px){
+    ul.menu li {
+      flex: column;
+      font-size: 25px;
+      margin-top:1.3em;
+      
+      text-align: center;
+    }
+    
+    
+  }
