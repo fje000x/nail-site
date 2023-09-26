@@ -312,7 +312,7 @@ footer p {
   ul.menu li {
     flex: column;
     font-size: 25px;
-    margin-top:2em;
+    margin-top:1.3em;
     
     text-align: center;
   }
